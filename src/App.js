@@ -12,10 +12,10 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <AddUser onAddUser={addUserToListHandler} />
       <UsersList users={usersList} />
-    </div>
+    </>
   )
 }
 
